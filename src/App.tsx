@@ -1,26 +1,21 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import MainRoute from './routes/MainRoute';
+import { createContext,useReducer,useState } from 'react';
 
-function App() {
-  return (
+function App()
+{
+    //const [ orgMembers,setMembers ] = useReducer( memberReducer,{ data: [] } );
+    //const [user]
+    return (
+    /* <Store.Provider >*/
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <MainRoute/>
+            </div>
+   /* </Store.Provider>*/
   );
 }
 
 export default App;
+export const Store = createContext( {} );

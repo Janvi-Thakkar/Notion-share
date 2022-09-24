@@ -1,0 +1,118 @@
+.shareBox {
+    width: 512px;
+    min-height: 262px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    
+    justify-content:space-between;
+}
+
+.shareBox .shareTop {
+     justify-content: space-between;
+     padding:24px 20px;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.shareBox .left{
+    justify-content:left;
+    text-align:left
+}
+
+.shareBox .left .web{
+    margin-right:16px;
+}
+
+.shareBox .right {
+
+}
+
+.shareBox .shareBody {
+    border-bottom: 1px solid #E5E7EB;
+    border-top: 1px solid #E5E7EB;
+    padding:16px 12px;
+}
+
+.shareBox .inviteBox {
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    width:100%;
+    justify-content:space-between;
+
+}
+
+    .shareBox .inviteBox:hover {
+        border: 1px solid #6366F1;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    }
+
+    .shareBox .inviteBox .inviteInput{
+        padding:9px 13px;
+        width:100%;
+        border:0px solid;
+        border-radius:6px;
+    }
+:focus {
+    outline: none;
+    }
+
+    .shareBox .inviteBox .inviteBtn {
+        width: 74px;
+        background-color: rgba(209, 213, 219, 1);
+        border: 1px solid #D1D5DB;
+        border-radius: 0px 6px 6px 0px;
+        justify-content:center
+
+    }
+
+.memberList {
+    
+}
+
+    .memberList .members {
+        width: 100%;
+        justify-content: space-between;
+        padding: 14px 0px 0px 0px;
+    }
+
+.memberList img.avtar{
+    border-radius:50%;
+    margin-right:8px;
+    width:40px;
+    height:40px;
+}
+
+    .memberList img.arrow {
+        object-fit: none;
+        aspect-ratio: auto;
+        width:12px;
+        height:7px;
+        margin-left:12px;
+    }
+
+    .memberList .accessDetails{
+        align-items:center
+    }
+
+.shareBottom {
+    background: #F9FAFB;
+    justify-content:space-between;
+    padding:14px 12px;
+}
+
+.shareBottom img.link, img.question{
+    margin-right:8px;
+}
+
+

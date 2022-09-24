@@ -1,0 +1,27 @@
+.accessScreen {
+    background: #FFFFFF;
+    border: 1px solid #F3F4F6;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    padding:14px 8px;
+    cursor:pointer
+}
+
+.accessScreen .accessName{
+    width:100%;
+    padding:8px;
+}
+
+.accessScreen .accessName.red{
+    color:red;
+}
+
+    .accessScreen .accessName.selected {
+        background: #F3F4F6;
+        border-radius: 4px;
+    }
+
+    .accessScreen .accessName:hover {
+        background: #F3F4F6;
+        border-radius: 4px;
+    }

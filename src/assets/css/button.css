@@ -1,0 +1,15 @@
+.button{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding:8px 16px;
+    width:max-content;
+    border-radius:4px;
+}
+
+    .button img {
+        margin-left: 10px;
+        width:12.8px;
+        height: 12.8px;
+    }
