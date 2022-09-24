@@ -6,9 +6,7 @@ import { createContext,useReducer,useState } from 'react';
 
 function App()
 {
-    //const [ orgMembers,setMembers ] = useReducer( memberReducer,{ data: [] } );
-    //const [user]
-    return (
+   return (
     /* <Store.Provider >*/
     <div className="App">
       <MainRoute/>

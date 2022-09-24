@@ -66,13 +66,19 @@ export type accessDetails =
 export type uuidAccess =
 {
         uuid : string,
-    access:number
-    }
+        access:number
+}
 
 export type currentAction =
 {
         type : string,
-    uuid:string
+        uuid:string
+}
+
+export type shareObject={
+    members : members[],
+    groups : group[],
+    accessDetails: accessDetails
 }
 
 

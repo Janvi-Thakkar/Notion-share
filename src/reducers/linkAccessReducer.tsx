@@ -3,12 +3,12 @@ import { linkAccessAction, accessDetails } from "../classes";
 import { addGroup, addMember, getAccessDetails, getGroupAccessDetails, getMemberAccessDetails, removeGroup, removeMember, updateGroupAccess, updateMemberAccess } from "../helper";
 
 
-export const INITIAL_STATE : accessDetails[] = [
+export const LINK_STATE : accessDetails[] = [
     { uuid: uuid4(),persons:[],groups:[] },
     { uuid: uuid4(),persons: [],groups: [] },
 ];
 
-export const access = ( state : accessDetails[],action : linkAccessAction ) =>
+export const linkAccess = ( state : accessDetails[],action : linkAccessAction ) =>
 {
     switch ( action.type )
     {

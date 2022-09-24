@@ -19,8 +19,8 @@ const HomePage : React.FC = () : ReactElement =>
             <Button {...shareObj } />
             {shareBox &&
                <div className="shareBoxInst">
-                <ShareBox />
-            </div>
+                  <ShareBox />
+               </div>
                }
         </div>
     );
